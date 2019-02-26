@@ -1,0 +1,21 @@
+@define-color bg_color #eee;
+@define-color plugin_bg_color #aaa;
+@define-color fg_color #333;
+@define-color base_color #444;
+@define-color text_color #333;
+@define-color selected_bg_color #eee;
+@define-color selected_fg_color #666;
+@define-color tooltip_bg_color #ddd;
+@define-color tooltip_fg_color #eee;
+@define-color really_dark_bg_color #eee;
+@define-color darkroom_bg_color #fff;
+@define-color darkroom_preview_bg_color shade(@darkroom_bg_color, .8);
+@define-color lighttable_bg_color @darkroom_bg_color;
+@define-color lighttable_preview_bg_color shade(@lighttable_bg_color, .8);
+@define-color brush_cursor alpha(white, .9);
+@define-color brush_trace alpha(black, .8);
+
+@define-color bauhaus_fg #ccc;
+@define-color bauhaus_border #191919;
+@define-color bauhaus_bg alpha(@bauhaus_border, 0.2);
+@define-color bauhaus_fg_insensitive alpha(@bauhaus_fg, 0.5);
