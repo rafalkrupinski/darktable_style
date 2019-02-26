@@ -1,1 +1,2 @@
-Styles for [Darktable](http://darktable.org) ([github](/darktable-org/darktable/))
+Custom styles for [Darktable](/darktable-org/darktable/)
+===
