@@ -1,8 +1,8 @@
 Custom styles for [Darktable](/darktable-org/darktable/)
 ===
 - [Default](default/)
-- [Light](light/)
-- [Todd's](todds/) blue sliders
+- Todd's [Light](light/)
+- Todd's [Blue sliders](blue_sliders/)
 
 Installation
 ==
