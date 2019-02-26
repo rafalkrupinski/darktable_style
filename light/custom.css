@@ -19,3 +19,42 @@
 @define-color bauhaus_border #191919;
 @define-color bauhaus_bg alpha(@bauhaus_border, 0.2);
 @define-color bauhaus_fg_insensitive alpha(@bauhaus_fg, 0.5);
+
+* {
+  margin: 0; /* this makes scroll bars super wide. */
+  padding: 1;
+}
+
+#lib-plugin-ui *,
+#iop-plugin-ui *
+{
+  border: 1pt solid #aaa;
+}
+
+scale.trough.highlight,
+scrollbar.contents.trough.highlight
+{
+  background-color:#aaa;
+}
+
+#lib-plugin-ui scrollbar slider,
+#iop-plugin-ui scrollbar slider,
+scrollbar slider
+{
+    background-color: #aaa;
+}
+
+/* sliders */
+
+scrollbar.horizontal,
+scrollbar.vertical {
+    border-color: @text_color;
+    background-color: @bg_color;
+}
+
+/* dialogs */
+dialog
+{
+  padding:1;
+  margin: 0; /* this makes scroll bars super wide. */
+}
